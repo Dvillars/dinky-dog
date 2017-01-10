@@ -4,6 +4,9 @@
   <head>
     <link href='css/style.css' rel="stylesheet" type="text/css">
     <title>Finn the Human the Dog</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src='js/jquery-3.1.1.js'></script>
+    <script src='js/scripts.js'></script>
   </head>
 
   <body>
@@ -11,15 +14,18 @@
     <h1>My dog is the best dog!</h1>
     <h2>(But Dinky is pretty cute, too!)</h2>
 
+    <button class="btn" id="dark">dark</button>
+    <button class="btn" id="light">light</button>
+
     <div class='fin'>
       <h3>Finn likes to:</h3>
       <img src="img/fin.jpg">
 
       <ul>
-        <li>high five</li>
-        <li>bark</li>
-        <li>eat cat food</li>
-        <li>and sleep!</li>
+        <li class='select'>high five</li>
+        <li class='select'>bark</li>
+        <li class='select'>eat cat food</li>
+        <li class='select'>and sleep!</li>
       </ul>
     </div>
 
@@ -28,9 +34,9 @@
       <img src="img/dinky.jpg">
 
       <ul>
-        <li>attention</li>
-        <li>howling</li>
-        <li>and using baby binkies.</li>
+        <li class='select'>attention</li>
+        <li class='select'>howling</li>
+        <li class='select'>and using baby binkies.</li>
       </ul>
     </div>
 

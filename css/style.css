@@ -6,3 +6,17 @@ img {
 .fin {
   margin-bottom: 100px;
 }
+
+.bg-dark {
+  background-color: black;
+  color: white;
+}
+
+.highlight {
+  border: 1px solid #369674;
+  background-color: #b8efdc;
+}
+
+.select {
+  width: 100px;
+}
